@@ -1,0 +1,30 @@
+services: 
+  windows:
+    image: docker.io/dockurr/windows
+    container_name: windows_yt
+    environment:
+      VERSION: "11"
+      DISK_SIZE: "100G"
+      RAM_SIZE: "45G"
+      CPU_CORES: "19"
+      USERNAME: "pixeledi"
+      PASSWORD: "windows"
+      LANGUAGE: "German"
+      REGION: "de-DE"
+      KEYBOARD: "en-US"  
+      ARGUMENTS: "-device usb-host,vendorid=0x2e8a,productid=0x0005"
+    devices:
+      - /dev/kvm
+      - /dev/net/tun
+      - /dev/bus/usb
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 8006:8006
+      - 3389:3389/tcp
+      - 3389:3389/udp
+    volumes:
+      - /mnt/VirtManager/yt_dockur:/storage
+      - /mnt/VirtManager/yt_dockur/shared:/shared
+    restart: always
+    stop_grace_period: 2m
