@@ -32,19 +32,6 @@ mindmap
         podman
       virtualisierung
         KVM/QEMU
-      services
-        Bitwarden
-          password manager
-        Node-RED
-          automation
-        Mosquitto
-          MQTT broker
-        MariaDB
-          database
-        Forgejo
-          git forge
-        PartDB
-          inventory
     🛠️ Editors & Tools
       text editor & IDE
         nvim
