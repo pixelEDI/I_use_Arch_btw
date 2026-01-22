@@ -4,6 +4,7 @@
 
 
 ```mermaid
+%%{init: {'theme':'neutral'}}%%
 mindmap
   root((🐧 Arch Linux Setup))
     🖥️ System
