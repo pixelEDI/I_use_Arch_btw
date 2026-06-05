@@ -23,12 +23,12 @@ mindmap
     💻 Shell & Terminal
       zsh
       starship prompt
-      wezterm terminal
+      ghostty terminal
     🏗️ Infrastructure
       backup
         rsync
         borgbackup
-        UGREEN DXP2800 NAS
+        UGREEN DXP4800 NAS
       container
         podman
       virtualisierung
@@ -42,7 +42,7 @@ mindmap
       email client
         aerc
       browser
-        zen-browser
+        firefox
           vimium extension
     ⚡ MCU Entwicklung
       esp-idf
@@ -60,7 +60,7 @@ mindmap
         FreeCAD
       3D printing
         PrusaSlicer
-        Prusa MK4
+        Prusa MK4s mit MMU3
       PCB design
         KiCad
     📝 Writing & Docs
