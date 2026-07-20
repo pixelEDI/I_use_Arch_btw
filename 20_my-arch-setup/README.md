@@ -9,8 +9,8 @@ mindmap
   root((🐧 Arch Linux Setup))
     🖥️ System
       window manager
-        sway
-          tiling WM
+        niri 
+          scrolling tiling WM
       dotfiles
         GNU Stow
       CPU
@@ -74,7 +74,7 @@ mindmap
         Nextcloud API
       Wissensdatenbank
         nvim
-        kollektives Nextcloud
+        Notizen Markdown Nextcloud sync
     🖱️ Hardware
       Input Devices
         split keyboard
