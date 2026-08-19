@@ -23,7 +23,7 @@ mindmap
     💻 Shell & Terminal
       zsh
       starship prompt
-      ghostty terminal
+      foot terminal
     🏗️ Infrastructure
       backup
         rsync
