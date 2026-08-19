@@ -96,7 +96,8 @@ mindmap
           Scarlett Solo
       Video Equipment
         kamera
-          Sony ZV1
+          Sony ZV-E10 I
+          Sony ZV-E10 II
         capture card
           Elgato 4K
       Security
